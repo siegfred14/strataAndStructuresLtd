@@ -46,3 +46,13 @@ a:hover {
   -webkit-transition: all 0.25s ease 0s;
   -o-transition: all 0.25s ease 0s;
 }
+
+a:focus {
+  outline: none;
+  outline-offset: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
