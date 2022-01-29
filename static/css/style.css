@@ -14,7 +14,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   letter-spacing: 1px;
-  background-color: #fff;
+  background: #fff url("../../media/borehole_drilling_company_in_lagos.jpg")
+    no-repeat fixed cover;
 }
 
 html {
