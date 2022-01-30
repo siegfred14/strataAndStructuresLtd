@@ -23,7 +23,15 @@
     {% comment %} Nav Bar {% endcomment %}
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Strata &#38; Structures Ltd</a>
+        <a class="navbar-brand" href="#"
+          ><img
+            src="../../media/water-logo2.png"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />Strata &#38; Structures Ltd</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -47,7 +55,8 @@
     </nav>
 
     <div class="new-cover">
-      {% block content %}{% endblock %}
+      {% comment %} content {% endcomment %}
+      <div class="display">{% block content %}{% endblock %}</div>
 
       <div class="footer-area">
         <div class="text-center">

@@ -109,6 +109,10 @@ a:visited {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.display {
+  padding-top: 4%;
+}
+
 /*--- Footer ---*/
 .footer-area {
   width: 100%;
