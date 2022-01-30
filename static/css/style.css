@@ -83,6 +83,8 @@ a:visited {
 .navbar .navbar-nav .nav-link {
   outline: 0;
   color: #fff;
+  font-size: 15px;
+  padding: 5px 10px;
 }
 
 .navbar .navbar-nav .nav-link:hover {
