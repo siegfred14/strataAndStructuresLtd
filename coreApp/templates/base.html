@@ -61,7 +61,13 @@
       <div class="footer-area">
         <div class="text-center">
           <p>Designed and developed by siegfred</p>
-          <p>&copy;Copyright 2021</p>
+          <p>
+            {% comment %} write with external script {% endcomment %}
+            &copy;Copyright
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+          </p>
         </div>
       </div>
     </div>
