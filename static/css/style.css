@@ -93,3 +93,12 @@ a:visited {
   color: rgba(7, 151, 247, 0.8);
   background-color: transparent;
 }
+
+/*--- base content ---*/
+
+.new-cover {
+  height: inherit;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
