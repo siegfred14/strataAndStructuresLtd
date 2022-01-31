@@ -1,5 +1,54 @@
 {% extends 'base.html' %} {% block content %}
 
-<h1>Home Page</h1>
+<div class="homepage">
+  <div class="welcome-msg text-center">
+    <h1>WELCOME TO STRATA &#38; STRUCTURES LTD</h1>
+    <p>The Water Solution Experts</p>
+  </div>
+
+  {% comment %} Image Slideshow {% endcomment %}
+  <div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="../../media/20200807_124821.jpg" style="width: 100%" />
+      <div class="text">High Efficient Vehicles</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="../../media/IMG-20200817-WA0048.jpg" style="width: 100%" />
+      <div class="text">State-of-the-Art Equipments</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img
+        src="../../media/3dc7373c-aef2-436b-b895-6e114953089d.jfif"
+        style="width: 100%"
+      />
+      <div class="text">Quality Service Delivery</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br />
+
+  <!-- The dots/circles -->
+  <div style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</div>
+
+<p>
+  End Here Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+  numquam velit accusamus modi enim repellat eligendi assumenda perspiciatis!
+  Nisi eveniet harum quibusdam dignissimos adipisci obcaecati vero, ipsam
+  accusamus. Dolore, tempore.
+</p>
 
 {% endblock %}

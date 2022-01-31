@@ -20,54 +20,56 @@
       <div class="loader"></div>
     </div>
 
-    {% comment %} Nav Bar {% endcomment %}
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img
-            src="../../media/water-logo2.png"
-            alt=""
-            width="30"
-            height="24"
-            class="d-inline-block align-text-top"
-          />Strata &#38; Structures Ltd</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-link" href="#">Home</a>
-            <a class="nav-link" href="#">About Us</a>
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href="#">Services</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-
     <div class="new-cover">
-      {% comment %} content {% endcomment %}
-      <div class="display">{% block content %}{% endblock %}</div>
+      <div class="new-cover-skin">
+        {% comment %} Nav Bar {% endcomment %}
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="../../media/water-logo2.png"
+                alt=""
+                width="30"
+                height="24"
+                class="d-inline-block align-text-top"
+              />Strata &#38; Structures Ltd</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">Services</a>
+              </div>
+            </div>
+          </div>
+        </nav>
 
-      <div class="footer-area">
-        <div class="text-center">
-          <p>Designed and developed by siegfred</p>
-          <p>
-            {% comment %} write with external script {% endcomment %}
-            &copy;Copyright
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-          </p>
+        {% comment %} content {% endcomment %}
+        <div class="display">{% block content %}{% endblock %}</div>
+
+        {% comment %} Footer {% endcomment %}
+        <div class="footer-area">
+          <div class="text-center">
+            <p>Designed and developed by siegfred</p>
+            <p>
+              &copy;Copyright
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+            </p>
+          </div>
         </div>
       </div>
     </div>
