@@ -341,18 +341,24 @@ body {
 }
 
 /*--- Contact Map ---*/
+.contact-map-container {
+  display: flex;
+  justify-content: center;
+}
+
 .mapouter {
   position: relative;
   text-align: right;
   height: 500px;
-  width: 600px;
+  width: 900px;
+  margin: 40px;
 }
 
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
   height: 500px;
-  width: 600px;
+  width: 900px;
 }
 
 /*--- Footer ---*/
