@@ -257,6 +257,7 @@ body {
   margin: 20px;
   background: linear-gradient(25deg, rgba(0, 153, 255, 0.644), whitesmoke);
   display: flex;
+  border-radius: 10px;
 }
 
 /* .pictures {
@@ -280,9 +281,19 @@ body {
 .about .about-info {
   padding: 10px;
   margin: 10px;
-  font-size: 25px;
+  font-size: 160%;
   color: black;
   text-align: justify;
+  height: inherit;
+}
+
+.about .about-info p {
+  padding: 4%;
+}
+
+.about .about-info span {
+  padding: 4%;
+  font-style: italic;
 }
 
 /*--- Footer ---*/
