@@ -57,7 +57,7 @@ a:visited {
 
 .new-cover {
   width: 100%;
-  height: 100%;
+  height: fit-content;
   line-height: 24px;
   font-size: 13px;
   font-family: "Poppins", sans-serif;
@@ -69,14 +69,12 @@ a:visited {
   background-size: cover;
 }
 
-.new-cover-skin {
-  /* height: 100%; */
-  /* position: fixed; */
+/* .new-cover-skin {
   padding: 0;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5) no-repeat scroll center;
   height: 100%;
-}
+} */
 /* --- Navbar CSS Starts --- */
 
 .navbar {
@@ -239,20 +237,36 @@ a:visited {
   display: flex;
 }
 
+/* .pictures {
+  display: grid;
+  grid-template-rows: 1fr;
+} */
+/* 
+.picture-sample {
+  width: 100%;
+  height: 600px;
+  background-image: url(../../media/IMG-20200817-WA0019.jpg);
+} */
 .about img {
-  height: 50%;
-  width: 200%;
-}
-
-.about-info {
+  /* height: 200px; */
+  width: 100%;
   padding: 10px;
   margin: 10px;
+  border-radius: 20px;
+}
+
+.about .about-info {
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+  color: black;
+  text-align: justify;
 }
 
 /*--- Footer ---*/
 .footer-area {
   width: 100%;
   bottom: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   margin-bottom: 0;
 }
