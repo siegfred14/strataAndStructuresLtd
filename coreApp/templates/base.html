@@ -57,20 +57,22 @@
         </nav>
 
         {% comment %} content {% endcomment %}
-        <div class="display">{% block content %}{% endblock %}</div>
-
-        {% comment %} Footer {% endcomment %}
-        <div class="footer-area">
-          <div class="text-center">
-            <p>Designed and developed by siegfred</p>
-            <p>
-              &copy;Copyright
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-            </p>
+        <div class="display">
+          {% block content %}{% endblock %}
+          <div class="footer-area">
+            <div class="text-center">
+              <p>Designed and developed by siegfred</p>
+              <p>
+                &copy;Copyright
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+              </p>
+            </div>
           </div>
         </div>
+
+        {% comment %} Footer {% endcomment %}
       </div>
     </div>
 
