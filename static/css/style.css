@@ -52,6 +52,13 @@ a:visited {
   text-decoration: none;
 }
 
+.page-content {
+  padding: 20px;
+  margin: 20px;
+  background: linear-gradient(25deg, rgba(0, 153, 255, 0.644), whitesmoke);
+  border-radius: 10px;
+}
+
 /* Body */
 
 body {
@@ -253,11 +260,7 @@ body {
 }
 
 .about {
-  padding: 20px;
-  margin: 20px;
-  background: linear-gradient(25deg, rgba(0, 153, 255, 0.644), whitesmoke);
   display: flex;
-  border-radius: 10px;
 }
 
 /* .pictures {
@@ -295,6 +298,8 @@ body {
   padding: 4%;
   font-style: italic;
 }
+
+/* Services Section */
 
 /*--- Footer ---*/
 .footer-area {
