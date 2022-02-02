@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0px;
   font-family: "Nunito", sans-serif;
-  color: whitesmoke;
   box-sizing: border-box;
 }
 
@@ -52,6 +51,8 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+
+/* Body */
 
 body {
   background: rgba(7, 151, 247, 0.8)
