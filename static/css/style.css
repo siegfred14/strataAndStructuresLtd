@@ -53,6 +53,13 @@ a:visited {
   text-decoration: none;
 }
 
+body {
+  background: rgba(7, 151, 247, 0.8)
+    url("../../media/borehole_drilling_company_in_lagos.jpg") no-repeat fixed
+    center;
+  width: 100%;
+  background-size: cover;
+}
 /* Base */
 
 .new-cover {
@@ -63,9 +70,6 @@ a:visited {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   letter-spacing: 1px;
-  background: rgba(7, 151, 247, 0.8)
-    url("../../media/borehole_drilling_company_in_lagos.jpg") no-repeat fixed
-    center;
   background-size: cover;
 }
 
