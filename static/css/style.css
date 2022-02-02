@@ -303,7 +303,16 @@ body {
 .services-main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
+  grid-gap: 2em;
+}
+
+.services-segment-header h3 {
+  font-size: 40px;
+  font-weight: 250%;
+}
+
+.services-segment-content {
+  font-size: 20px;
 }
 
 /*--- Footer ---*/
