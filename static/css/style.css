@@ -242,6 +242,21 @@ body {
 }
 
 /*--- Home.html ---*/
+.welcome-msg {
+  padding: 25px;
+}
+.welcome-msg h1 {
+  color: whitesmoke;
+  text-shadow: 0 0 10px greenyellow;
+}
+
+.welcome-msg p {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 200px;
+  text-shadow: 0 0 10px gold;
+}
+
 .home-main {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -391,6 +406,7 @@ body {
 
 /*--- Footer ---*/
 .footer-area {
+  font-size: 15px;
   width: 100%;
   bottom: 10px;
   padding: 10px;
