@@ -247,6 +247,28 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.home-grid-item {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.home-grid-item img {
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 20px black;
+  border-radius: 20px;
+}
+
+.home-grid-item .home-text {
+  padding-top: 10%;
+  width: 60%;
+  height: fit-content;
+}
+.home-grid-item .home-text p {
+  font-size: 30px;
+  line-height: 45px;
+}
 /*--- About.html ---*/
 
 .page-header-container {
