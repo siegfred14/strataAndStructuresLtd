@@ -49,7 +49,7 @@
               <div class="navbar-nav ml-auto">
                 <a class="nav-link" href="/">Home</a>
                 <a class="nav-link" href="about">About Us</a>
-                <a class="nav-link" href="services">Services</a>
+                <a class="nav-link" href="our_services">Services</a>
                 <a class="nav-link" href="contact">Contact</a>
               </div>
             </div>
@@ -62,12 +62,7 @@
           <div class="footer-area">
             <div class="text-center">
               <p>Designed and developed by siegfred</p>
-              <p>
-                &copy;Copyright
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-              </p>
+              <p>Copyright&copy;<span class="footer-date"></span></p>
             </div>
           </div>
         </div>
@@ -81,6 +76,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-    {% comment %} {% include 'includes/scripts.html' %} {% endcomment %}
+    <script src="../../static/js/index.js"></script>
+    {% include 'includes/scripts.html' %}
   </body>
 </html>
