@@ -322,6 +322,7 @@ body {
 
 .home-grid-item img {
   width: 100%;
+  height: fit-content;
   padding: 20px;
   box-shadow: 0 0 20px black;
   border-radius: 20px;
