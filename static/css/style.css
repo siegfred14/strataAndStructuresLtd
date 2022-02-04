@@ -329,13 +329,16 @@ body {
 }
 
 .home-grid-item .home-text {
-  padding-top: 10%;
-  width: 60%;
-  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
 }
+
 .home-grid-item .home-text p {
   font-size: 30px;
-  line-height: 45px;
+  line-height: 150%;
+  text-align: center;
 }
 /*--- About.html ---*/
 
