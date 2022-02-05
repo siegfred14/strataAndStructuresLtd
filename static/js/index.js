@@ -12,4 +12,8 @@ $(document).ready(function () {
 })
 
 let footer_date = document.querySelector(".footer-date");
-footer_date.document.write(new Date().getFullYear());
+footer_date.addEventListener("load", function name(params) {
+    // document.write(new Date().getFullYear());
+    let currentYear = new Date().getFullYear();
+    footer_date.innerHTML = currentYear;
+})

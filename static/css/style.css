@@ -336,10 +336,17 @@ body {
 }
 
 .home-grid-item .home-text p {
-  font-size: 30px;
-  line-height: 150%;
+  font-size: 220%;
+  line-height: 170%;
   text-align: center;
 }
+
+/* @media (max-width: 600px) {
+  .home-main {
+    display: none;
+  }
+} */
+
 /*--- About.html ---*/
 
 .page-header-container {
