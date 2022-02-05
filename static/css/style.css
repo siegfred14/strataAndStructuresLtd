@@ -406,6 +406,11 @@ body {
   font-style: italic;
 }
 
+.about .about-info ul {
+  padding: 0 6%;
+  list-style-type: square;
+  line-height: 170%;
+}
 /* Services Section */
 
 .services-main {
