@@ -379,6 +379,10 @@ body {
   height: 600px;
   background-image: url(../../media/IMG-20200817-WA0019.jpg);
 } */
+
+.about .pictures {
+  flex-basis: 50%;
+}
 .about .pictures img {
   width: 100%;
   padding: 10px;
@@ -393,6 +397,7 @@ body {
   color: black;
   text-align: justify;
   height: inherit;
+  flex-basis: 50%;
 }
 
 .about .about-info p {
