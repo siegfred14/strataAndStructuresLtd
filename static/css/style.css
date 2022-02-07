@@ -295,16 +295,16 @@ body {
 
 /*--- media queries ---*/
 
-@media (min-width: 1200px) {
+@media (min-width: 1201px) {
   .page-header {
     background-color: red;
   }
-}
 
-/* Home */
+  /* Home */
 
-.home-main {
-  font-size: 12px;
+  .home-main {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -317,9 +317,14 @@ body {
   .home-main {
     font-size: 9px;
   }
+
+  /* About */
+  .about-info {
+    font-size: 20px;
+  }
 }
 
-@media (min-width: 10px) and (max-width: 768px) {
+@media (min-width: 10px) and (max-width: 767px) {
   .page-header {
     background-color: green;
   }
@@ -327,6 +332,10 @@ body {
   /* home */
   .home-main {
     font-size: 6px;
+  }
+
+  .about .about-info {
+    flex-direction: column;
   }
 }
 
@@ -431,11 +440,11 @@ body {
 .about .about-info {
   padding: 10px;
   margin: 10px;
-  font-size: 30px;
+  font-size: 180%;
   color: black;
   text-align: justify;
   flex-basis: 50%;
-  line-height: 35px;
+  line-height: 120%;
 }
 
 .about .about-info p {
@@ -452,7 +461,7 @@ body {
 .about .about-info ul {
   padding: 0 6%;
   list-style-type: square;
-  line-height: 40px;
+  line-height: 150%;
 }
 /* Services Section */
 
