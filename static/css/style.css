@@ -57,6 +57,7 @@
   padding: 0px;
   font-family: "Nunito", sans-serif;
   box-sizing: border-box;
+  max-width: 1200px;
 }
 
 html {
@@ -293,6 +294,8 @@ body {
   }
 }
 
+/*--- media queries ---*/
+
 /*--- Home.html ---*/
 .welcome-msg {
   padding: 25px;
@@ -385,6 +388,7 @@ body {
 }
 .about .pictures img {
   width: 100%;
+  height: auto;
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
@@ -396,7 +400,6 @@ body {
   font-size: 160%;
   color: black;
   text-align: justify;
-  height: inherit;
   flex-basis: 50%;
 }
 
