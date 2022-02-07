@@ -293,31 +293,45 @@ body {
   }
 }
 
+/*--- media queries ---*/
+
 @media (min-width: 1200px) {
-  .page-header {
+  .welcome-msg {
     background-color: red;
   }
 }
 
+/* Home */
+
+.home-main {
+  font-size: 12px;
+}
+
 @media (min-width: 768px) and (max-width: 1200px) {
-  .page-header {
+  .welcome-msg {
     background-color: purple;
   }
-}
 
-@media (min-width: 500px) and (max-width: 768px) {
-  .page-header {
-    background-color: green;
+  /* Home */
+
+  .home-main {
+    font-size: 9px;
+  }
+
+  /* About Page */
+  .about {
+    flex-direction: column;
   }
 }
 
-/*--- media queries ---*/
-@media (max-width: 800px) {
-  /* Home */
+@media (min-width: 10px) and (max-width: 768px) {
+  .welcome-msg {
+    background-color: green;
+  }
 
-  /* About */
-  .about {
-    flex-direction: column;
+  /* home */
+  .home-main {
+    font-size: 6px;
   }
 }
 
