@@ -57,7 +57,6 @@
   padding: 0px;
   font-family: "Nunito", sans-serif;
   box-sizing: border-box;
-  max-width: 1200px;
 }
 
 html {
@@ -294,8 +293,28 @@ body {
   }
 }
 
+@media (min-width: 1200px) {
+  .page-header {
+    background-color: red;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .page-header {
+    background-color: purple;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .page-header {
+    background-color: green;
+  }
+}
+
 /*--- media queries ---*/
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+  /* Home */
+
   /* About */
   .about {
     flex-direction: column;
