@@ -296,7 +296,7 @@ body {
 /*--- media queries ---*/
 
 @media (min-width: 1200px) {
-  .welcome-msg {
+  .page-header {
     background-color: red;
   }
 }
@@ -308,7 +308,7 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .welcome-msg {
+  .page-header {
     background-color: purple;
   }
 
@@ -317,15 +317,10 @@ body {
   .home-main {
     font-size: 9px;
   }
-
-  /* About Page */
-  .about {
-    flex-direction: column;
-  }
 }
 
 @media (min-width: 10px) and (max-width: 768px) {
-  .welcome-msg {
+  .page-header {
     background-color: green;
   }
 
@@ -436,10 +431,11 @@ body {
 .about .about-info {
   padding: 10px;
   margin: 10px;
-  font-size: 160%;
+  font-size: 30px;
   color: black;
   text-align: justify;
   flex-basis: 50%;
+  line-height: 35px;
 }
 
 .about .about-info p {
@@ -456,7 +452,7 @@ body {
 .about .about-info ul {
   padding: 0 6%;
   list-style-type: square;
-  line-height: 170%;
+  line-height: 40px;
 }
 /* Services Section */
 
