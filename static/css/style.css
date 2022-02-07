@@ -295,6 +295,12 @@ body {
 }
 
 /*--- media queries ---*/
+@media (max-width: 768px) {
+  /* About */
+  .about {
+    flex-direction: column;
+  }
+}
 
 /*--- Home.html ---*/
 .welcome-msg {
