@@ -359,6 +359,8 @@ body {
   }
 }
 
+/*------ End of Media Queries ------*/
+
 /*--- Home.html ---*/
 .welcome-msg {
   padding: 25px;
@@ -423,7 +425,7 @@ body {
 .page-header {
   padding: 2%;
   margin: 2%;
-  width: 30%;
+  width: 45%;
   color: whitesmoke;
   text-shadow: 0 0 10px black;
   font-size: 60px;
