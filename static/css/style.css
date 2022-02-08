@@ -334,7 +334,7 @@ body {
     font-size: 6px;
   }
 
-  .about .about-info {
+  .about {
     flex-direction: column;
   }
 }
