@@ -319,8 +319,11 @@ body {
   }
 
   /* About */
-  .about-info {
-    font-size: 20px;
+  .about .about-info p,
+  span,
+  ul {
+    font-size: 85%;
+    line-height: 115%;
   }
 }
 
