@@ -327,6 +327,9 @@ body {
   }
 
   /* Services Page */
+  .page-header-container .page-header {
+    width: 45%;
+  }
 }
 
 @media (min-width: 10px) and (max-width: 767px) {
@@ -425,7 +428,7 @@ body {
 .page-header {
   padding: 2%;
   margin: 2%;
-  width: 45%;
+  width: 35%;
   color: whitesmoke;
   text-shadow: 0 0 10px black;
   font-size: 60px;
