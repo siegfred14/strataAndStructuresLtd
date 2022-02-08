@@ -432,7 +432,7 @@ body {
   color: whitesmoke;
   text-shadow: 0 0 10px black;
   font-size: 60px;
-  text-align: right;
+  text-align: center;
   border-bottom: 3px solid yellow;
 }
 
@@ -494,9 +494,12 @@ body {
   display: grid;
   grid-template-columns: 32% 32% 32%;
   grid-gap: 2em;
-  text-align: center;
+  text-align: justify;
 }
 
+.services-main h3 {
+  text-align: center;
+}
 .services-segment-header h3 {
   font-size: 40px;
   font-weight: 250%;
