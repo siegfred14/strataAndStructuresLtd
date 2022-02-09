@@ -326,9 +326,18 @@ body {
     line-height: 115%;
   }
 
-  /* Services Page */
+  /* Services */
   .page-header-container .page-header {
     width: 45%;
+  }
+
+  /* Contacts */
+  .contact-map-container .map-large {
+    display: block;
+  }
+
+  .contact-map-container .map-mobile {
+    display: none;
   }
 }
 
@@ -372,8 +381,12 @@ body {
     padding-bottom: 10%;
   }
 
-  .page-content .contact-map-container {
+  .contact-map-container .map-large {
     display: none;
+  }
+
+  .contact-map-container .map-mobile {
+    display: block;
   }
 }
 
@@ -558,15 +571,30 @@ body {
 
 .mapouter {
   position: relative;
-  text-align: right;
-  height: 500px;
-  width: 900px;
-  margin: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
+}
+
+.contact-map-container .map-mobile {
+  height: 385px;
+  width: 450px;
+}
+.map-mobile .gmap_canvas {
+  height: 385px;
+  width: 450px;
+}
+
+.contact-map-container .map-large {
+  height: 500px;
+  width: 900px;
+}
+
+.map-large .gmap_canvas {
   height: 500px;
   width: 900px;
 }
