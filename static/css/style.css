@@ -293,27 +293,19 @@ body {
   }
 }
 
-/*--- media queries ---*/
+/*--- MEDIA QUERIES ---*/
 
+/* Media for Large Screens*/
 @media (min-width: 1201px) {
-  .page-header {
-    background-color: red;
-  }
-
   /* Home */
-
   .home-main {
     font-size: 12px;
   }
 }
 
+/* Media for Notebooks and computers */
 @media (min-width: 768px) and (max-width: 1200px) {
-  .page-header {
-    background-color: purple;
-  }
-
   /* Home */
-
   .home-main {
     font-size: 9px;
   }
@@ -341,11 +333,8 @@ body {
   }
 }
 
+/* Media for Phones and Tablets */
 @media (min-width: 10px) and (max-width: 767px) {
-  .page-header {
-    background-color: green;
-  }
-
   /* home */
   .home-main {
     font-size: 6px;
@@ -392,7 +381,7 @@ body {
 
 /*------ End of Media Queries ------*/
 
-/*--- Home.html ---*/
+/*--- HOME PAGE ---*/
 .welcome-msg {
   padding: 25px;
 }
@@ -439,14 +428,9 @@ body {
   line-height: 170%;
   text-align: center;
 }
+/*------ End of Home Page ------*/
 
-/* @media (max-width: 600px) {
-  .home-main {
-    display: none;
-  }
-} */
-
-/*--- About.html ---*/
+/*--- ABOUT SECTION ---*/
 
 .page-header-container {
   display: flex;
@@ -467,17 +451,6 @@ body {
 .about {
   display: flex;
 }
-
-/* .pictures {
-  display: grid;
-  grid-template-rows: 1fr;
-} */
-/* 
-.picture-sample {
-  width: 100%;
-  height: 600px;
-  background-image: url(../../media/IMG-20200817-WA0019.jpg);
-} */
 
 .about .pictures {
   flex-basis: 50%;
@@ -516,7 +489,9 @@ body {
   list-style-type: square;
   line-height: 150%;
 }
-/* Services Section */
+/*------ End of About Page ------*/
+
+/*--- SERVICES PAGE ---*/
 
 .services-main {
   display: grid;
@@ -537,8 +512,9 @@ body {
 .services-segment-content {
   font-size: 20px;
 }
+/*------ End of Services Page ------*/
 
-/*--- Contact Page ---*/
+/*--- CONTACTs PAGE ---*/
 
 .contact-message p {
   font-size: 20px;
@@ -563,7 +539,6 @@ body {
   font-size: 20px;
 }
 
-/*--- Contact Map ---*/
 .contact-map-container {
   display: flex;
   justify-content: center;
@@ -598,8 +573,9 @@ body {
   height: 500px;
   width: 900px;
 }
+/*------ End of Footer ------*/
 
-/*--- Footer ---*/
+/*--- FOOTER ---*/
 .footer-area {
   font-size: 15px;
   width: 100%;
@@ -609,3 +585,4 @@ body {
   color: whitesmoke;
   text-shadow: 0 0 10px black;
 }
+/*------ End of Footer ------*/
