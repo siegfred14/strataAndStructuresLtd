@@ -110,8 +110,9 @@ a:visited {
   background: linear-gradient(25deg, rgba(0, 153, 255, 0.644), whitesmoke);
   border-radius: 10px;
 }
+/*------ End of Default CSS ------*/
 
-/* Body */
+/*--- BASE ---*/
 
 body {
   background: rgba(7, 151, 247, 0.8)
@@ -121,14 +122,12 @@ body {
   background-size: cover;
 }
 
-/*--- Page Content ---*/
-
 .display {
   height: 100vh;
   padding-top: 5%;
 }
 
-/* Home Page ---*/
+/*------ End of base ------*/
 
 /*--- MEDIA QUERIES ---*/
 
@@ -215,11 +214,9 @@ body {
     display: block;
   }
 }
-
 /*------ End of Media Queries ------*/
 
-/*--- BASE ---*/
-
+/*--- BACKGROUND SKIN ---*/
 .new-cover {
   width: 100%;
   height: fit-content;
@@ -230,9 +227,9 @@ body {
   letter-spacing: 1px;
   background-size: cover;
 }
+/*------ End of background skin ------*/
 
-/* --- Navbar CSS --- */
-
+/* --- NAVBAR CSS --- */
 .navbar {
   /* background: linear-gradient(45deg, rgb(0, 89, 255), rgb(190, 190, 236)); */
   background-color: #323232;
