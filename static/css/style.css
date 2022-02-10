@@ -1,5 +1,4 @@
 /*--- Preloader CSS ---*/
-
 .loader_bg {
   position: fixed;
   z-index: 9999999;
@@ -266,6 +265,7 @@ body {
   color: rgba(7, 151, 247, 0.8);
   background-color: transparent;
 }
+
 /*------ End of NavBar ------*/
 
 /*--- HOME PAGE ---*/
@@ -464,6 +464,7 @@ body {
 
 /*--- FOOTER ---*/
 .footer-area {
+  text-align: center;
   font-size: 15px;
   width: 100%;
   bottom: 10px;

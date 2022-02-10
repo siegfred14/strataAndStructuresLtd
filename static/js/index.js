@@ -11,9 +11,13 @@ $(document).ready(function () {
     }, 1500);
 })
 
-let footer_date = document.querySelector(".footer-date");
-footer_date.addEventListener("load", function name(params) {
-    // document.write(new Date().getFullYear());
-    let currentYear = new Date().getFullYear();
-    footer_date.innerHTML = currentYear;
-})
+// let footer_date = document.querySelector(".footer-date");
+// footer_date.addEventListener("load", function name(params) {
+//     // document.write(new Date().getFullYear());
+//     let currentYear = new Date().getFullYear();
+//     footer_date.innerHTML = currentYear;
+// })
+
+// Footer
+var date = new Date().getFullYear();
+document.getElementsByClassName("footer-year").innerHTML = date;

@@ -67,9 +67,9 @@
         <div class="display">
           {% block content %}{% endblock %}
           <div class="footer-area">
-            <div class="text-center">
+            <div>
               <p>Designed and developed by siegfred</p>
-              <p>Copyright&copy;<span class="footer-date"></span></p>
+              <p>Copyright&copy;<span class="footer-year"></span></p>
             </div>
           </div>
         </div>
@@ -83,8 +83,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-    {% comment %}
-    <script src="../../static/js/index.js"></script>
-    {% endcomment %} {% include 'includes/scripts.html' %}
+    {% include 'includes/scripts.html' %}
   </body>
 </html>
