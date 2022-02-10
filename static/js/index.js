@@ -19,5 +19,5 @@ $(document).ready(function () {
 // })
 
 // Footer
-var date = new Date().getFullYear();
-document.getElementsByClassName("footer-year").innerHTML = date;
+let date = new Date().getFullYear();
+document.querySelector(".footer-year").innerHTML = date;
